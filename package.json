@@ -1,7 +1,7 @@
 {
-  "name": "simple-drawing-board",
+  "name": "@tguesdon/simple-drawing-board",
   "version": "3.1.2",
-  "description": "Just simple minimal canvas drawing lib.",
+  "description": "Fork of https://www.npmjs.com/package/simple-drawing-board with flood function added. Just simple minimal canvas drawing lib.",
   "main": "./dist/simple-drawing-board.js",
   "types": "./index.d.ts",
   "scripts": {
@@ -13,15 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leader22/simple-drawing-board.js.git"
+    "url": "https://github.com/TGuesdon/simple-drawing-board.js.git"
   },
   "keywords": [
     "canvas",
     "drawing",
     "drawing-board",
-    "vanilla"
+    "vanilla",
+    "flood"
   ],
-  "author": "leader22",
+  "author": "leader22 ( mostly ) & tguesdon",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leader22/simple-drawing-board.js/issues"
