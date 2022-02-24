@@ -21,7 +21,7 @@ declare class SimpleDrawingBoard {
   setLineColor(color: string): void;
   fill(color: string): void;
   clear(): void;
-  toggleMode(): void;
+  toggleMode(mode: string): void;
   toDataURL(options?: ToDataURLOptions): string;
   fillImageByElement($el: CanvasImageSource, options?: FillImageOptions): void;
   fillImageByDataURL(src: string, options?: FillImageOptions): Promise<void>;
